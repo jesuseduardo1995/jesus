@@ -8,9 +8,9 @@ body, html{
   color: #666;
 }
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3,.pimg4, .pimg5, .pimg6,.pimg7, .pimg8, .pimg8, .pimg50{
   position: relative;
-  opacity: 0.80;
+  opacity: 0.85;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,25 +18,72 @@ body, html{
 }
 
 .pimg1{
-  background-image: url('../img/image90.jpg');
+  background-image: url('../img/10.jpg');
   min-height: 100%;
 }
 
 .pimg2{
-  background-image: url('../img/image93.jpg');
+  background-image: url('../img/7.jpg');
   min-height: 400px;
 }
 
+
 .pimg3{
-  background-image: url('../img/image91.jpg');
+  background-image: url('../img/17.jpg');
   min-height: 400px;
+}
+.pimg4{
+  background-image: url('../img/8.jpg');
+  min-height: 400px;
+  background-attachment: cover;
+}
+
+.pimg5{
+  background-image: url('../img/image3.jpg');
+  min-height: 400px;
+  background-attachment: cover;
+}
+
+
+.pimg50{
+  background-image: url('../img/13.jpg');
+  min-height: 100%;
+  background-size: cover;
 }
 
 .section{
   text-align: center;
-  padding:75px;
+  padding:30px;
+  
 }
 
+h2{
+  font-family: tangerine,serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.hoverto:link{
+  text-decoration: none;
+  color:black;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ opacity:0.01;
+ 
+  
+}
+.hoverto:hover {
+  letter-spacing: 50px;
+  opacity: 0.90;
+  font-size: 70px;
+  color: black;
+  text-shadow: 5px 5px 5px #aaa;
+  -webkit-transition: all 0.9s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+  transition: all .9s ease;
+ 
+}
 .section-light{
   background-color: #f4f4f4;
   color: #666;
@@ -60,12 +107,18 @@ body, html{
 
 .ptext .border{
   background-color: #111;
-  color: white;
   padding: 20px;
+  letter-spacing: 30px;
+  font-family:fantasy;
+  font-size: 60px;
+  color: #f4f4f4;
+  
+  
 }
 
 .ptext .border.trans{
   background-color: transparent;
+ 
 }
 
 @media(max-width:568px){
